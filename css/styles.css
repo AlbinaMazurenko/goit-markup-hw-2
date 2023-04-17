@@ -1,5 +1,11 @@
 :root {
-
+         --back-color: white;
+         --navy-blue: #2E2F42;
+         --cornflower: #E7E9FC;
+      --cloud: #F4F4FD;
+      --iris: #4d5ae5;
+      --ocean: #404bbf;
+      --slate: #434455;
 }
 
 body {
@@ -9,11 +15,9 @@ body {
    font-size: 14px;
    line-height: 2;
 
-   color: #434455;
-   background-color: white;
+   color: var(--slate);
+   background-color: var(--back-color);
 }
-
-
 
 .list {
    list-style: none;
@@ -30,11 +34,11 @@ body {
    line-height: 1.17;
    letter-spacing: 0.03em;
    text-transform: uppercase;
-   color: #4d5ae5;
+   color: var(--iris);
 }
 
 .h-studio {
-   color: #2e2f42;
+   color: var(--navy-blue);
 }
 
 .list-item {
@@ -42,12 +46,12 @@ body {
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
-   color: #2e2f42;
+   color: var(--navy-blue);
 }
 
 .list-item:focus,
 .list-item:hover {
-   color: #404bbf;
+   color: var(--ocean);
 }
 
 .address {
@@ -58,16 +62,16 @@ body {
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
-   color: #434455;
+   color: var(--slate);
 }
 
 .contact:focus,
 .contact:hover {
-   color: #404bbf;
+   color: var(--ocean);
 }
 
 .hero {
-   background-color: #2e2f42;
+   background-color: var(--navy-blue);
 }
 
 .hero-title {
@@ -75,29 +79,29 @@ body {
    line-height: 1.07;
    text-align: center;
    letter-spacing: 0.02em;
-   color: #ffffff;
+   color: var(--back-color);
 }
 
 .button{
-   background-color: #4D5AE5;
+   background-color: var(--iris);
    font-family: "Roboto", sans-serif;
    font-weight: 500;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.04em;
-   color: #ffffff;
+   color: var(--back-color);
 
    cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
-   background-color: #404BBF;
+   background-color: var(--ocean);
 }
 
 .header-link:hover,
 .header-link:focus {
-   color: #404BBF;
+   color: var(--ocean);
 }
 
 .functions {
@@ -109,7 +113,7 @@ body {
    font-size: 20px;
    line-height: 1.2;
    letter-spacing: 0.02em;
-   color: #2e2f42;
+   color: var(--navy-blue);
 }
 
 .functions-par {
@@ -124,11 +128,11 @@ body {
    text-align: center;
    letter-spacing: 0.02em;
    text-transform: capitalize;
-   color: #2e2f42;
+   color: var(--navy-blue);
 }
 
 .team {
-   background-color: #F4F4FD;
+   background-color: var(--cloud);
 }
 
 .team-header {
@@ -137,11 +141,11 @@ body {
    text-align: center;
    letter-spacing: 0.02em;
    text-transform: capitalize;
-   color: #2e2f42;
+   color: var(--navy-blue);
 }
 
 .team-item {
-   background-color: #ffffff;
+   background-color: var(--back-color);
 }
 
 .worker-name {
@@ -149,7 +153,7 @@ body {
    font-size: 20px;
    line-height: 1.2;
    letter-spacing: 0.02em;
-   color: #2e2f42;
+   color: var(--navy-blue);
 }
 
 .worker-position {
@@ -158,10 +162,44 @@ body {
    letter-spacing: 0.02em;
 }
 
+.btn {
+   background-color: var(--iris);
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   color: var(--iris);
+   background-color: var(--cloud);
+
+   cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+   color: var(--back-color);
+   background-color: var(--ocean);
+}
+
+.subtitle {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: var(--navy-blue);
+}
+
+.undertitle {
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--slate);
+}
+
 .footer {
-   background-color: #2e2f42;
+   background-color: var(--navy-blue);
 }
 
 .f-studio {
-   color: #f4f4fd;
+   color: var(--cloud);
 }
