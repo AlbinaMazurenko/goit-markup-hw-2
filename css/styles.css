@@ -54,27 +54,15 @@ body {
    font-style: normal;
 }
 
-.mail {
+.contact {
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #434455;
 }
 
-.mail:focus,
-.mail:hover {
-   color: #404bbf;
-}
-
-.tel {
-   font-size: 16px;
-   line-height: 1.5;
-   letter-spacing: 0.02em;
-   color: #434455;
-}
-
-.tel:focus,
-.tel:hover {
+.contact:focus,
+.contact:hover {
    color: #404bbf;
 }
 
