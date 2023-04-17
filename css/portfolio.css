@@ -1,19 +1,7 @@
-:root {
-
-}
-
 body {
    font-family: "Roboto", sans-serif;
-   font-style: normal;
-   font-weight: 500;
-   font-size: 14px;
-   line-height: 2;
-
    color: #434455;
-   background-color: white;
 }
-
-
 
 .list {
    list-style: none;
@@ -78,45 +66,26 @@ body {
    color: #404bbf;
 }
 
-.hero {
-   background-color: #2e2f42;
-}
-
-.hero-title {
-   font-size: 56px;
-   line-height: 1.07;
-   text-align: center;
-   letter-spacing: 0.02em;
-   color: #ffffff;
-}
-
-.button{
+.button {
    background-color: #4D5AE5;
    font-family: "Roboto", sans-serif;
    font-weight: 500;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.04em;
-   color: #ffffff;
+   color: #4d5ae5;
+   background-color: #F4F4FD;
 
    cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
-   background-color: #404BBF;
+   color: #FFFFFF;
+   background-color: #404BBF
 }
 
-.header-link:hover,
-.header-link:focus {
-   color: #404BBF;
-}
-
-.functions {
-
-}
-
-.functions-item {
+.subtitle {
    font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
@@ -124,47 +93,7 @@ body {
    color: #2e2f42;
 }
 
-.functions-par {
-   font-size: 16px;
-   line-height: 1.5;
-   letter-spacing: 0.02em;
-}
-
-.options {
-   font-size: 36px;
-   line-height: 1.11;
-   text-align: center;
-   letter-spacing: 0.02em;
-   text-transform: capitalize;
-   color: #2e2f42;
-}
-
-.team {
-   background-color: #F4F4FD;
-}
-
-.team-header {
-   font-size: 36px;
-   line-height: 1.11;
-   text-align: center;
-   letter-spacing: 0.02em;
-   text-transform: capitalize;
-   color: #2e2f42;
-}
-
-.team-item {
-   background-color: #ffffff;
-}
-
-.worker-name {
-   font-weight: 500;
-   font-size: 20px;
-   line-height: 1.2;
-   letter-spacing: 0.02em;
-   color: #2e2f42;
-}
-
-.worker-position {
+.undertitle {
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
